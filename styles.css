@@ -654,7 +654,7 @@ h2 {
 }
 
 .split-heading > p,
-.audit-copy > p:last-child {
+.audit-copy > p:not(.eyebrow) {
   margin: 0 0 5px;
   color: var(--muted);
   line-height: 1.65;
@@ -667,7 +667,7 @@ h2 {
 .policy-runner {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   border-top: 1px solid var(--line-strong);
   border-bottom: 1px solid var(--line-strong);
 }
@@ -1189,7 +1189,7 @@ h2 {
   margin-bottom: 28px;
 }
 
-.audit-copy > p:last-child {
+.audit-copy > p:not(.eyebrow) {
   max-width: 570px;
 }
 
@@ -1273,6 +1273,18 @@ h2 {
 .deployment h2 {
   max-width: 760px;
   font-size: clamp(2.5rem, 4.5vw, 4.8rem);
+}
+
+.audit-copy .audit-retention {
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+
+.deployment-copy {
+  max-width: 620px;
+  margin: 24px 0 0;
+  color: var(--muted);
+  line-height: 1.65;
 }
 
 .deployment-options {

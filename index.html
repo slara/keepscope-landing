@@ -6,7 +6,7 @@
     <title>KeepScope.ai | Gobierno y control para IA empresarial</title>
     <meta
       name="description"
-      content="KeepScope ayuda a las empresas a controlar el uso de datos personales en IA, conservar evidencia auditable y revelar información sólo cuando corresponde."
+      content="KeepScope protege datos personales antes de enviarlos a modelos de IA, exige revisión humana y permite restituir resultados con autorización."
     />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
@@ -20,7 +20,7 @@
       <nav class="desktop-nav" aria-label="Navegación principal">
         <a href="#control">Control</a>
         <a href="#law">Ley 21.719</a>
-        <a href="#reveal">Revelado</a>
+        <a href="#reveal">Restitución</a>
         <a href="#audit">Auditoría</a>
       </nav>
       <a class="header-action" href="mailto:hello@keepscope.ai">Conversemos</a>
@@ -33,7 +33,7 @@
     <div class="mobile-menu" hidden data-mobile-menu>
       <a href="#control">Control</a>
       <a href="#law">Ley 21.719</a>
-      <a href="#reveal">Revelado</a>
+      <a href="#reveal">Restitución</a>
       <a href="#audit">Auditoría</a>
       <a href="mailto:hello@keepscope.ai">Conversemos</a>
     </div>
@@ -44,9 +44,9 @@
         <div class="hero-inner">
           <div class="hero-copy-block">
             <p class="eyebrow">Gobierno de IA para empresas</p>
-            <h1 id="hero-title">Gobierna la IA sin frenar a tus equipos.</h1>
+            <h1 id="hero-title">Controla qué datos envías a la IA.</h1>
             <p class="hero-copy">
-              Controla los datos personales antes de cada modelo, conserva evidencia auditable y revela el original sólo cuando corresponde.
+              Protege los datos personales, revisa el contenido antes de enviarlo y conserva un registro de las decisiones. Restituye los resultados con autorización.
             </p>
             <div class="hero-actions" aria-label="Acciones principales">
               <a class="button primary" href="mailto:hello@keepscope.ai">
@@ -58,17 +58,17 @@
             <p class="law-note"><span aria-hidden="true"></span> Preparación para la Ley 21.719 · Vigencia 1 dic 2026</p>
           </div>
 
-          <div class="hero-system" aria-label="Un prompt pasa por KeepScope antes de llegar a un modelo de IA">
+          <div class="hero-system" aria-label="Ejemplo: KeepScope protege el contenido y exige aprobación humana antes de enviarlo a una ruta autorizada">
             <div class="system-topline">
-              <span>Control en tiempo real</span>
-              <span class="system-status"><i></i> Activo</span>
+              <span>Del texto al envío autorizado</span>
+              <span class="system-status"><i></i> Ejemplo</span>
             </div>
             <div class="system-flow">
               <article class="system-node prompt-node">
                 <div class="node-icon prompt-icon" aria-hidden="true"><span></span><span></span><span></span></div>
                 <div>
                   <span class="node-label">01 · Prompt</span>
-                  <strong>Revisar contrato</strong>
+                  <strong>Resumir documento</strong>
                 </div>
                 <span class="data-pill danger">RUT detectado</span>
               </article>
@@ -81,9 +81,22 @@
                 <div class="node-icon scope-icon" aria-hidden="true"><i></i></div>
                 <div>
                   <span class="node-label">02 · KeepScope</span>
-                  <strong>Política Legal-04</strong>
+                  <strong>Política asignada</strong>
                 </div>
-                <span class="decision-pill">Tokenizar + registrar</span>
+                <span class="decision-pill">Proteger datos</span>
+              </article>
+
+              <div class="system-track" aria-hidden="true">
+                <span class="moving-packet packet-two"></span>
+              </div>
+
+              <article class="system-node review-node">
+                <div class="node-icon scope-icon" aria-hidden="true"><i></i></div>
+                <div>
+                  <span class="node-label">03 · Revisión humana</span>
+                  <strong>Contenido y destino</strong>
+                </div>
+                <span class="decision-pill">Aprobación requerida</span>
               </article>
 
               <div class="system-track" aria-hidden="true">
@@ -93,33 +106,33 @@
               <article class="system-node model-node">
                 <div class="node-icon model-icon" aria-hidden="true"><i></i><i></i><i></i></div>
                 <div>
-                  <span class="node-label">03 · Modelo IA</span>
-                  <strong>Dato protegido</strong>
+                  <span class="node-label">04 · Modelo IA</span>
+                  <strong>Ruta autorizada</strong>
                 </div>
-                <span class="data-pill safe">RUT &lt;RUT_1&gt;</span>
+                <span class="data-pill safe">Texto protegido</span>
               </article>
             </div>
             <div class="audit-pulse">
               <span class="pulse-dot" aria-hidden="true"></span>
-              <div><strong>Evidencia creada</strong><span>Regla · acción · responsable · integridad</span></div>
-              <code>KS-8472</code>
+              <div><strong>Decisión registrada</strong><span>Regla · versión · acción · actor</span></div>
+              <code>Ejemplo</code>
             </div>
           </div>
         </div>
       </section>
 
       <section class="trust-strip" aria-label="Capacidades principales">
-        <p>Una capa de control para</p>
-        <div><span>Datos personales</span><span>Modelos externos</span><span>Equipos internos</span><span>Auditorías</span></div>
+        <p>Protección integrada en</p>
+        <div><span>Aplicaciones cliente</span><span>Flujos de texto</span><span>Rutas autorizadas</span><span>Auditorías</span></div>
       </section>
 
       <section class="section control" id="control" aria-labelledby="control-title">
         <div class="section-heading split-heading">
           <div>
             <p class="eyebrow">Antes de cada modelo</p>
-            <h2 id="control-title">La política viaja con cada prompt.</h2>
+            <h2 id="control-title">Revisa y aprueba antes de enviar.</h2>
           </div>
-          <p>KeepScope inspecciona el contexto, decide qué puede salir y registra la acción sin interrumpir el flujo de trabajo.</p>
+          <p>KeepScope aplica los perfiles autorizados que selecciona tu aplicación. Una persona revisa el contenido protegido y el destino antes del envío. Si faltan las condiciones exigidas, la solicitud se bloquea.</p>
         </div>
 
         <div class="policy-runner" data-observe>
@@ -131,22 +144,29 @@
             <span class="step-number">01</span>
             <div class="step-icon inspect-icon" aria-hidden="true"><i></i></div>
             <h3>Detecta</h3>
-            <p>RUT, salud, cuentas, secretos y otras categorías definidas por tu organización.</p>
-            <span class="step-event">2 datos encontrados</span>
+            <p>Busca nombres, RUT, teléfonos, direcciones y correos en el texto. La revisión humana permite corregir omisiones y falsos positivos.</p>
+            <span class="step-event">Detección local</span>
           </article>
           <article class="runner-step">
             <span class="step-number">02</span>
             <div class="step-icon decide-icon" aria-hidden="true"><i></i></div>
-            <h3>Decide</h3>
-            <p>Permite, bloquea, redacta o tokeniza según la finalidad, el rol y el modelo.</p>
+            <h3>Protege</h3>
+            <p>Conserva, omite o sustituye datos según la política. Mantiene intacto el texto fuera de las transformaciones autorizadas.</p>
             <span class="step-event">Política aplicada</span>
           </article>
           <article class="runner-step">
             <span class="step-number">03</span>
+            <div class="step-icon decide-icon" aria-hidden="true"><i></i></div>
+            <h3>Revisa y aprueba</h3>
+            <p>Tu aplicación muestra el contenido y las condiciones del envío. Un actor autenticado aprueba esa revisión exacta.</p>
+            <span class="step-event">Aprobación con caducidad</span>
+          </article>
+          <article class="runner-step">
+            <span class="step-number">04</span>
             <div class="step-icon evidence-icon" aria-hidden="true"><i></i><i></i><i></i></div>
-            <h3>Demuestra</h3>
-            <p>Conserva una evidencia verificable de quién decidió, qué ocurrió y por qué.</p>
-            <span class="step-event">Evento firmado</span>
+            <h3>Envía y registra</h3>
+            <p>Revalida la autorización, envía por la ruta permitida y registra las reglas, versiones y transiciones sin contenido en los logs.</p>
+            <span class="step-event">Evento registrado</span>
           </article>
         </div>
       </section>
@@ -162,19 +182,19 @@
             <p class="legal-caveat">Apoya tu programa de cumplimiento; no reemplaza la evaluación jurídica.</p>
           </div>
 
-          <div class="control-ledger" aria-label="Relación entre principios de protección de datos y controles operativos">
-            <div class="ledger-head"><span>Principio</span><span>Control operativo</span><span>Estado</span></div>
+          <div class="control-ledger" aria-label="Ejemplo de relación entre principios de protección de datos y controles operativos">
+            <div class="ledger-head"><span>Principio</span><span>Control operativo</span><span>Ejemplo</span></div>
             <div class="ledger-row">
-              <span>Finalidad</span><strong>Política por caso de uso</strong><i aria-label="Configurado">Listo</i>
+              <span>Finalidad</span><strong>Política por caso de uso</strong><i>Aplicado</i>
             </div>
             <div class="ledger-row">
-              <span>Proporcionalidad</span><strong>Minimización antes del envío</strong><i aria-label="Configurado">Listo</i>
+              <span>Proporcionalidad</span><strong>Minimización antes del envío</strong><i>Aplicado</i>
             </div>
             <div class="ledger-row">
-              <span>Seguridad</span><strong>Protección y acceso por rol</strong><i aria-label="Configurado">Listo</i>
+              <span>Seguridad</span><strong>Protección y acceso por rol</strong><i>Aplicado</i>
             </div>
             <div class="ledger-row active-row">
-              <span>Responsabilidad</span><strong>Evidencia de cada decisión</strong><i aria-label="Registrando">En vivo</i>
+              <span>Responsabilidad</span><strong>Evidencia de cada decisión</strong><i>Registrado</i>
             </div>
             <div class="ledger-scan" aria-hidden="true"></div>
           </div>
@@ -185,38 +205,38 @@
         <div class="section-heading split-heading">
           <div>
             <p class="eyebrow">Protección reversible</p>
-            <h2 id="reveal-title">Protege por defecto. Revela cuando corresponde.</h2>
+            <h2 id="reveal-title">Restituye el resultado con autorización.</h2>
           </div>
-          <p>Los equipos trabajan con referencias protegidas. Un usuario autorizado puede ver el dato original cuando la tarea realmente lo exige.</p>
+          <p>KeepScope comprueba el formato, los tokens y la privacidad de la respuesta. Tu aplicación valida el resultado protegido y solicita la restitución de los campos permitidos, con permisos vigentes y antes de que caduque.</p>
         </div>
 
         <div class="reveal-console" data-reveal-demo>
           <div class="reveal-context">
             <div class="console-bar">
-              <span>Expediente · Contrato 024</span>
-              <span class="protected-status" data-protected-status><i></i> Datos protegidos</span>
+              <span>Resultado de ejemplo</span>
+              <span class="protected-status" data-protected-status><i></i> Resultado protegido</span>
             </div>
             <div class="document-preview">
-              <span class="doc-label">Prompt preparado para IA</span>
-              <p>Revisa las obligaciones del contrato de <mark data-person>&lt;PERSONA_1&gt;</mark>, RUT <mark data-rut>&lt;RUT_1&gt;</mark>, y resume los riesgos.</p>
-              <div class="doc-meta"><span>2 tokens protegidos</span><span>Modelo: aprobado</span></div>
+              <span class="doc-label">Vista del resultado · Datos ficticios</span>
+              <p>Titular: <mark data-person>[KS_…_A]</mark>. RUT: <mark data-rut>[KS_…_B]</mark>. Resumen del documento preparado.</p>
+              <div class="doc-meta"><span>Tokens abreviados</span><span>El cliente gestiona el acceso y la conservación tras la entrega</span></div>
             </div>
           </div>
 
           <div class="reveal-permission">
-            <p class="permission-kicker">Solicitud de revelado</p>
-            <h3>Acceso acotado y trazable</h3>
+            <p class="permission-kicker">Restitución del resultado</p>
+            <h3>Entrega autorizada</h3>
             <dl>
-              <div><dt>Rol</dt><dd>Equipo Legal</dd></div>
-              <div><dt>Motivo</dt><dd>Revisión contractual</dd></div>
-              <div><dt>Ventana</dt><dd>5 minutos</dd></div>
-              <div><dt>Registro</dt><dd>Obligatorio</dd></div>
+              <div><dt>Acceso</dt><dd>Cliente autorizado</dd></div>
+              <div><dt>Alcance</dt><dd>Campos permitidos</dd></div>
+              <div><dt>Vigencia</dt><dd>Antes de caducar</dd></div>
+              <div><dt>Registro</dt><dd>Sin contenido</dd></div>
             </dl>
-            <button class="reveal-button" type="button" data-reveal-button>
+            <button class="reveal-button" type="button" aria-pressed="false" data-reveal-button>
               <span class="lock-symbol" aria-hidden="true"></span>
-              <span data-reveal-label>Autorizar revelado</span>
+              <span data-reveal-label>Simular restitución</span>
             </button>
-            <p class="reveal-feedback" aria-live="polite" data-reveal-feedback>El modelo nunca recibe el dato original.</p>
+            <p class="reveal-feedback" aria-live="polite" data-reveal-feedback>Ejemplo local con datos ficticios y tokens abreviados.</p>
           </div>
         </div>
       </section>
@@ -225,27 +245,28 @@
         <div class="audit-layout">
           <div class="audit-copy">
             <p class="eyebrow">Auditoría continua</p>
-            <h2 id="audit-title">Cada decisión deja una historia verificable.</h2>
-            <p>Responde qué ocurrió sin guardar más datos de los necesarios. Exporta eventos a tus procesos de riesgo, compliance o SIEM.</p>
+            <h2 id="audit-title">Consulta qué se autorizó y por qué.</h2>
+            <p>Consulta las reglas aplicadas, sus versiones y las acciones autorizadas. Exporta eventos en JSONL mediante una herramienta operativa con acceso restringido para tus procesos de auditoría.</p>
+            <p class="audit-retention">Los registros tienen retención limitada. Cuando caduca el contenido, conservan las decisiones y versiones, pero no permiten reconstruir el texto.</p>
           </div>
 
           <div class="audit-stream" aria-label="Ejemplo de una secuencia de auditoría">
             <div class="stream-line" aria-hidden="true"><span></span></div>
             <article>
               <time>09:41:02</time><i aria-hidden="true"></i>
-              <div><span>Solicitud recibida</span><strong>Equipo Legal · Caso 024</strong></div>
+              <div><span>Ejemplo de auditoría</span><strong>Solicitud recibida · Revisión 1</strong></div>
             </article>
             <article>
               <time>09:41:03</time><i aria-hidden="true"></i>
-              <div><span>Política aplicada</span><strong>LEGAL-04 · Tokenizar RUT</strong></div>
+              <div><span>Política aplicada</span><strong>Política asignada · Versión registrada</strong></div>
             </article>
             <article>
-              <time>09:41:03</time><i aria-hidden="true"></i>
-              <div><span>Modelo autorizado</span><strong>Destino aprobado · Prompt protegido</strong></div>
+              <time>09:42:10</time><i aria-hidden="true"></i>
+              <div><span>Revisión aprobada</span><strong>Actor autenticado · Contenido y destino</strong></div>
             </article>
             <article class="stream-result">
-              <time>09:41:04</time><i aria-hidden="true"></i>
-              <div><span>Evidencia sellada</span><strong>KS-8472 · Integridad verificada</strong></div>
+              <time>09:42:11</time><i aria-hidden="true"></i>
+              <div><span>Envío autorizado</span><strong>Ruta permitida · Evento registrado</strong></div>
             </article>
           </div>
         </div>
@@ -254,16 +275,17 @@
       <section class="section deployment" aria-labelledby="deployment-title">
         <div>
           <p class="eyebrow">En tu arquitectura</p>
-          <h2 id="deployment-title">Control donde tus datos lo exigen.</h2>
+          <h2 id="deployment-title">Protección en tu infraestructura.</h2>
+          <p class="deployment-copy">La detección y la bóveda se ejecutan en tu infraestructura. La inferencia puede usar proveedores externos, siempre mediante rutas autorizadas. Cada destino requiere su propia autorización.</p>
         </div>
-        <div class="deployment-options" aria-label="Opciones de despliegue">
-          <span>Cloud privado</span><span>On-premise</span><span>Híbrido</span><span>Integración SIEM</span>
+        <div class="deployment-options" aria-label="Componentes e integración">
+          <span>Detección local</span><span>Bóveda cifrada</span><span>API para tus aplicaciones</span><span>Exportación JSONL</span>
         </div>
       </section>
 
       <section class="final-cta" aria-labelledby="cta-title">
         <p class="eyebrow">KeepScope.ai</p>
-        <h2 id="cta-title">Tus equipos avanzan.<br />Tus datos mantienen el control.</h2>
+        <h2 id="cta-title">Define qué puede salir.<br />Aprueba cada envío.</h2>
         <a class="button primary" href="mailto:hello@keepscope.ai">
           <span>Conversemos</span><span class="button-arrow" aria-hidden="true">→</span>
         </a>

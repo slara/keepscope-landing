@@ -62,16 +62,16 @@ const rutToken = document.querySelector("[data-rut]");
 const setRevealState = (isRevealed) => {
   revealDemo?.classList.toggle("is-revealed", isRevealed);
 
-  if (personToken) personToken.textContent = isRevealed ? "Camila Soto" : "<PERSONA_1>";
-  if (rutToken) rutToken.textContent = isRevealed ? "12.345.678-9" : "<RUT_1>";
-  if (revealLabel) revealLabel.textContent = isRevealed ? "Ocultar datos" : "Autorizar revelado";
+  if (personToken) personToken.textContent = isRevealed ? "Ana Prueba" : "[KS_…_A]";
+  if (rutToken) rutToken.textContent = isRevealed ? "12.345.678-9" : "[KS_…_B]";
+  if (revealLabel) revealLabel.textContent = isRevealed ? "Ver resultado protegido" : "Simular restitución";
   if (protectedStatus) {
-    protectedStatus.lastChild.textContent = isRevealed ? " Datos revelados" : " Datos protegidos";
+    protectedStatus.lastChild.textContent = isRevealed ? " Resultado restituido" : " Resultado protegido";
   }
   if (revealFeedback) {
     revealFeedback.textContent = isRevealed
-      ? "Acceso temporal registrado en la auditoría KS-8473."
-      : "El modelo nunca recibe el dato original.";
+      ? "Simulación completada. La restitución real exige permisos vigentes y queda registrada."
+      : "Ejemplo local con datos ficticios y tokens abreviados.";
   }
   revealButton?.setAttribute("aria-pressed", String(isRevealed));
 };
