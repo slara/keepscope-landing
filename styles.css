@@ -4,8 +4,9 @@
 /* Hallmark · pre-emit critique: P4 H4 E4 S4 R3 V4 · weakest: R, three dot models is one more than the page needs; each is tied to a fact (the scope, the round trip, the close) and kept off the text */
 /* Hallmark · waive 59 · the footer sits 49px under the dot wave, split from it by a rule on the same pine · the wave and the colophon close the page as one pine band */
 /* Hallmark · waive 44c · the linter measures the globe canvas alone; the whole flow column is centred on the text block · the globe is the last step of the flow and sits at its foot, where the text arrives at the model */
-/* Hallmark · reworded "Protege los datos que compartes con IA." to "Que tu empresa use IA sin exponer sus datos." · the headline is the owner's own wording */
+/* Hallmark · reworded "Protege los datos que compartes con IA." to "Usa IA sin que los datos salgan de tu empresa." · the headline is the owner's own wording */
 /* Hallmark · reworded "Hablemos de cómo usa IA tu equipo." to "Mira KeepScope con tus propios casos de uso." · the owner asked for better conversion; the close now names what the demo shows */
+/* Hallmark · reworded "Una respuesta útil. Los datos, solo con permiso." to "Los datos vuelven a la respuesta solo con permiso." and "En tus aplicaciones. Bajo tus reglas." to "Se ejecuta en tu infraestructura y sigue tus reglas." · the owner ran a humanizer pass; paired fragments became plain sentences */
 /* Hallmark · dropped [data-approve-button] · the owner says approval is automatic, so the example approves by itself and the approve button is gone */
 /* Hallmark · dropped [data-approval-feedback] · the owner asked to remove the simulated-approval line; the status chip now carries the live state */
 /* Hallmark · reworded "Revisa y autoriza el envío" to "Aprueba el envío de forma automática" · the owner says approval is automatic, by policy */
