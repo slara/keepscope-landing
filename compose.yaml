@@ -1,0 +1,8 @@
+name: keepscope-landing
+
+services:
+  landing:
+    build: .
+    ports:
+      - "127.0.0.1:${PORT:-8088}:80"
+    restart: unless-stopped
