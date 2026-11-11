@@ -5,7 +5,7 @@
 web
 
 ## Product Purpose
-KeepScope protects personal data in text before it is sent to AI models. Applications choose authorized policy profiles. A person reviews protected content and destination and approves that exact revision before sending. Missing conditions block the request.
+KeepScope protects personal data in text before it is sent to AI models. Applications choose authorized policy profiles. Approval is automatic: KeepScope checks the protected content and destination against the policy and approves that exact revision before sending, in the manner of Claude Code auto mode (owner statement, 2026-11-10; earlier copy described a person approving each send). Missing conditions block the request.
 
 ## Users
 Enterprise teams evaluating data protection for AI. Source: existing landing copy, retained in the user-approved brand/content direction. Specific buyer persona is unconfirmed.

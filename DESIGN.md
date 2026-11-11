@@ -75,7 +75,7 @@ components:
     textColor: "{colors.paper}"
     typography: "{typography.button}"
     rounded: "{rounded.button}"
-    padding: "14px 24px"
+    padding: "12px 24px"
   button-primary-hover:
     backgroundColor: "{colors.green-hover}"
   button-compact:
@@ -92,8 +92,8 @@ components:
   text-link:
     textColor: "{colors.ink}"
   navigation:
-    backgroundColor: "{colors.mint-light}"
-    textColor: "{colors.ink}"
+    backgroundColor: "{colors.pine}"
+    textColor: "{colors.on-pine}"
     height: "96px"
   status-pending:
     backgroundColor: "{colors.pending-bg}"
@@ -120,9 +120,9 @@ components:
 
 **Creative North Star: "Visible protection"**
 
-An approachable enterprise security system: pale mint, deep pine ink, generous spacing, and compact white demonstrations make sensitive-data handling legible. The user-selected category direction favors familiar navigation, plain Spanish, and concrete product states.
+An approachable enterprise security system: deep pine regions, mint accents, generous spacing, and compact white demonstrations make sensitive-data handling legible. The header, hero, restitution, contact and footer sit on Pine; the explanatory sections between them stay on Paper and Wash. The user-selected category direction favors familiar navigation, plain Spanish, and concrete product states.
 
-Self-hosted Manrope carries every role. Rounded demonstration surfaces, fine separators, and restrained motion provide clarity without ornamental imagery. The existing favicon remains the identity asset; the build adds no raster imagery.
+Self-hosted Manrope carries every role. Rounded demonstration surfaces, fine separators, and restrained motion provide clarity. Three mint dot models drawn on canvas (a globe that stands for the AI model at the end of the hero flow, a ring around the restitution example, a wave closing the page) are the only imagery; they never sit under running text, stop under reduced motion, and share one visible pause control. The existing favicon remains the identity asset; the build adds no raster imagery.
 
 **Key Characteristics:**
 - Mint and pine with explicit semantic state colors.
@@ -183,11 +183,11 @@ Rounded rectangles define the system: modest button corners, larger demonstratio
 
 ### Buttons and links
 
-Primary buttons use Green on Paper text, compact Manrope, and the frontmatter padding. Standard buttons have a 50px minimum height; compact and full-width demonstration actions use 44px. Hover darkens and translates upward 2px over 160ms; active returns to rest. Reset is a white, green-outline button with a wash hover. Text actions remain underlined. Keyboard focus is a 3px Green outline offset 5px, with Mint substituted on pine disclosures.
+Primary buttons use Green with Paper text on white cards and Mint with Ink text on Pine, compact Manrope, 12px 24px padding. Standard buttons have a 48px minimum height; compact and full-width demonstration actions use 44px. The approval simulation and its reset are white, green-outline buttons. Hover darkens and translates upward 2px over 160ms; active returns to rest. Reset is a white, green-outline button with a wash hover. Text actions remain underlined. Keyboard focus is a 3px Green outline offset 5px, with Mint substituted on pine disclosures.
 
 ### Navigation
 
-Sentence-case links share the pale-mint header. Desktop hover adds an underline. The mobile menu is an in-flow disclosure with a top separator; its trigger exposes expanded state, and Escape closes it and returns focus.
+Sentence-case links sit in a transparent header laid over the pine hero. Desktop hover adds an underline. The mobile menu is an in-flow disclosure with a top separator; its trigger exposes expanded state, and Escape closes it and returns focus.
 
 ### Status and data highlights
 
@@ -195,7 +195,7 @@ Pending and approved chips share their compact shape. Their color and label chan
 
 ### Demonstrations and records
 
-White cards contain distinct original/protected areas, labeled status, and full-width actions. Approval swaps its action for reset and moves focus to the visible control. Restitution is an independent toggle with visible state and live feedback. Audit and process rows rely on separators and aligned small labels rather than extra cards.
+The hero example is a vertical flow: the original text types itself in a white card, a stream of dots carries it to a second white card with the protected text and the approval, and a second stream reaches the model globe only once approved. Approval swaps its action for reset and moves focus to the visible control. Restitution is an independent toggle with visible state and live feedback. Audit and process rows rely on separators and aligned small labels rather than extra cards.
 
 ### Disclosures
 

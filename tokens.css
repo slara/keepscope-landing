@@ -1,10 +1,12 @@
 :root {
   --ink: #102f29; --muted: #4c625b; --paper: #ffffff; --wash: #f5f8f5;
   --mint: #98e8c5; --mint-light: #dff3e9; --mint-deep: #c2e9d5;
-  --green: #155a43; --green-hover: #0d4432; --pine: #0b3229; --on-pine: #f2fbf5; --muted-pine: #bad0c5;
-  --rule: #d4dfd8; --rule-dark: #446459; --red: #8a3a2a; --red-bg: #fbece5;
+  --green: #155a43; --green-hover: #0d4432; --pine: #06201a; --pine-raised: #0d2e26; --on-pine: #f2fbf5; --muted-pine: #a9c4b8;
+  --data: #ffb199; --data-bg: #43231a; --safe-dark: #123f30;
+  --rule: #d4dfd8; --rule-dark: #25493e; --red: #8a3a2a; --red-bg: #fbece5;
   --safe-bg: #d9f3e6; --safe-ink: #12523c; --pending-bg: #f6f0d9; --pending-ink: #6c5513;
   --transparent: transparent; --shadow: 0 22px 60px -26px #164a373d;
+  --focus: var(--green); --btn: var(--green); --btn-hover: var(--green-hover); --btn-ink: var(--paper); --soft: var(--muted); --line: var(--rule); --link-hover: var(--green);
   --font-display: "Manrope", sans-serif; --font-body: "Manrope", sans-serif;
   --container: 1248px; --gutter: 40px; --radius: 16px;
   --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 32px; --space-2xl: 48px; --space-3xl: 64px; --space-section: 104px;
