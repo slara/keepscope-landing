@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-11T01:52:21.621401+00:00",
+  "title": "Design System: KeepScope.ai",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0385 178.76)",
+          "oklch(26% 0.0385 178.76)",
+          "oklch(37% 0.0385 178.76)",
+          "oklch(48% 0.0385 178.76)",
+          "oklch(59% 0.0385 178.76)",
+          "oklch(70% 0.0385 178.76)",
+          "oklch(82% 0.0385 178.76)",
+          "oklch(95% 0.0385 178.76)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0288 173.62)",
+          "oklch(26% 0.0288 173.62)",
+          "oklch(37% 0.0288 173.62)",
+          "oklch(48% 0.0288 173.62)",
+          "oklch(59% 0.0288 173.62)",
+          "oklch(70% 0.0288 173.62)",
+          "oklch(82% 0.0288 173.62)",
+          "oklch(95% 0.0288 173.62)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26% 0.0000 0.00)",
+          "oklch(37% 0.0000 0.00)",
+          "oklch(48% 0.0000 0.00)",
+          "oklch(59% 0.0000 0.00)",
+          "oklch(70% 0.0000 0.00)",
+          "oklch(82% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "wash": {
+        "role": "neutral",
+        "displayName": "Wash",
+        "tonalRamp": [
+          "oklch(15% 0.0051 145.54)",
+          "oklch(26% 0.0051 145.54)",
+          "oklch(37% 0.0051 145.54)",
+          "oklch(48% 0.0051 145.54)",
+          "oklch(59% 0.0051 145.54)",
+          "oklch(70% 0.0051 145.54)",
+          "oklch(82% 0.0051 145.54)",
+          "oklch(95% 0.0051 145.54)"
+        ]
+      },
+      "mint": {
+        "role": "primary",
+        "displayName": "Mint",
+        "tonalRamp": [
+          "oklch(15% 0.0930 165.03)",
+          "oklch(26% 0.0930 165.03)",
+          "oklch(37% 0.0930 165.03)",
+          "oklch(48% 0.0930 165.03)",
+          "oklch(59% 0.0930 165.03)",
+          "oklch(70% 0.0930 165.03)",
+          "oklch(82% 0.0930 165.03)",
+          "oklch(95% 0.0930 165.03)"
+        ]
+      },
+      "mint-light": {
+        "role": "primary",
+        "displayName": "Mint Light",
+        "tonalRamp": [
+          "oklch(15% 0.0249 164.44)",
+          "oklch(26% 0.0249 164.44)",
+          "oklch(37% 0.0249 164.44)",
+          "oklch(48% 0.0249 164.44)",
+          "oklch(59% 0.0249 164.44)",
+          "oklch(70% 0.0249 164.44)",
+          "oklch(82% 0.0249 164.44)",
+          "oklch(95% 0.0249 164.44)"
+        ]
+      },
+      "mint-deep": {
+        "role": "primary",
+        "displayName": "Mint Deep",
+        "tonalRamp": [
+          "oklch(15% 0.0489 162.99)",
+          "oklch(26% 0.0489 162.99)",
+          "oklch(37% 0.0489 162.99)",
+          "oklch(48% 0.0489 162.99)",
+          "oklch(59% 0.0489 162.99)",
+          "oklch(70% 0.0489 162.99)",
+          "oklch(82% 0.0489 162.99)",
+          "oklch(95% 0.0489 162.99)"
+        ]
+      },
+      "green": {
+        "role": "primary",
+        "displayName": "Green",
+        "tonalRamp": [
+          "oklch(15% 0.0776 166.08)",
+          "oklch(26% 0.0776 166.08)",
+          "oklch(37% 0.0776 166.08)",
+          "oklch(48% 0.0776 166.08)",
+          "oklch(59% 0.0776 166.08)",
+          "oklch(70% 0.0776 166.08)",
+          "oklch(82% 0.0776 166.08)",
+          "oklch(95% 0.0776 166.08)"
+        ]
+      },
+      "green-hover": {
+        "role": "primary",
+        "displayName": "Green Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0643 166.36)",
+          "oklch(26% 0.0643 166.36)",
+          "oklch(37% 0.0643 166.36)",
+          "oklch(48% 0.0643 166.36)",
+          "oklch(59% 0.0643 166.36)",
+          "oklch(70% 0.0643 166.36)",
+          "oklch(82% 0.0643 166.36)",
+          "oklch(95% 0.0643 166.36)"
+        ]
+      },
+      "pine": {
+        "role": "neutral",
+        "displayName": "Pine",
+        "tonalRamp": [
+          "oklch(15% 0.0463 174.47)",
+          "oklch(26% 0.0463 174.47)",
+          "oklch(37% 0.0463 174.47)",
+          "oklch(48% 0.0463 174.47)",
+          "oklch(59% 0.0463 174.47)",
+          "oklch(70% 0.0463 174.47)",
+          "oklch(82% 0.0463 174.47)",
+          "oklch(95% 0.0463 174.47)"
+        ]
+      },
+      "on-pine": {
+        "role": "neutral",
+        "displayName": "On Pine",
+        "tonalRamp": [
+          "oklch(15% 0.0123 157.01)",
+          "oklch(26% 0.0123 157.01)",
+          "oklch(37% 0.0123 157.01)",
+          "oklch(48% 0.0123 157.01)",
+          "oklch(59% 0.0123 157.01)",
+          "oklch(70% 0.0123 157.01)",
+          "oklch(82% 0.0123 157.01)",
+          "oklch(95% 0.0123 157.01)"
+        ]
+      },
+      "muted-pine": {
+        "role": "neutral",
+        "displayName": "Muted Pine",
+        "tonalRamp": [
+          "oklch(15% 0.0281 164.23)",
+          "oklch(26% 0.0281 164.23)",
+          "oklch(37% 0.0281 164.23)",
+          "oklch(48% 0.0281 164.23)",
+          "oklch(59% 0.0281 164.23)",
+          "oklch(70% 0.0281 164.23)",
+          "oklch(82% 0.0281 164.23)",
+          "oklch(95% 0.0281 164.23)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "tonalRamp": [
+          "oklch(15% 0.0151 158.22)",
+          "oklch(26% 0.0151 158.22)",
+          "oklch(37% 0.0151 158.22)",
+          "oklch(48% 0.0151 158.22)",
+          "oklch(59% 0.0151 158.22)",
+          "oklch(70% 0.0151 158.22)",
+          "oklch(82% 0.0151 158.22)",
+          "oklch(95% 0.0151 158.22)"
+        ]
+      },
+      "rule-dark": {
+        "role": "neutral",
+        "displayName": "Rule Dark",
+        "tonalRamp": [
+          "oklch(15% 0.0415 171.07)",
+          "oklch(26% 0.0415 171.07)",
+          "oklch(37% 0.0415 171.07)",
+          "oklch(48% 0.0415 171.07)",
+          "oklch(59% 0.0415 171.07)",
+          "oklch(70% 0.0415 171.07)",
+          "oklch(82% 0.0415 171.07)",
+          "oklch(95% 0.0415 171.07)"
+        ]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Red",
+        "tonalRamp": [
+          "oklch(15% 0.1132 32.98)",
+          "oklch(26% 0.1132 32.98)",
+          "oklch(37% 0.1132 32.98)",
+          "oklch(48% 0.1132 32.98)",
+          "oklch(59% 0.1132 32.98)",
+          "oklch(70% 0.1132 32.98)",
+          "oklch(82% 0.1132 32.98)",
+          "oklch(95% 0.1132 32.98)"
+        ]
+      },
+      "red-bg": {
+        "role": "secondary",
+        "displayName": "Red Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0189 46.81)",
+          "oklch(26% 0.0189 46.81)",
+          "oklch(37% 0.0189 46.81)",
+          "oklch(48% 0.0189 46.81)",
+          "oklch(59% 0.0189 46.81)",
+          "oklch(70% 0.0189 46.81)",
+          "oklch(82% 0.0189 46.81)",
+          "oklch(95% 0.0189 46.81)"
+        ]
+      },
+      "safe-bg": {
+        "role": "secondary",
+        "displayName": "Safe Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0323 164.21)",
+          "oklch(26% 0.0323 164.21)",
+          "oklch(37% 0.0323 164.21)",
+          "oklch(48% 0.0323 164.21)",
+          "oklch(59% 0.0323 164.21)",
+          "oklch(70% 0.0323 164.21)",
+          "oklch(82% 0.0323 164.21)",
+          "oklch(95% 0.0323 164.21)"
+        ]
+      },
+      "safe-ink": {
+        "role": "secondary",
+        "displayName": "Safe Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0736 165.34)",
+          "oklch(26% 0.0736 165.34)",
+          "oklch(37% 0.0736 165.34)",
+          "oklch(48% 0.0736 165.34)",
+          "oklch(59% 0.0736 165.34)",
+          "oklch(70% 0.0736 165.34)",
+          "oklch(82% 0.0736 165.34)",
+          "oklch(95% 0.0736 165.34)"
+        ]
+      },
+      "pending-bg": {
+        "role": "secondary",
+        "displayName": "Pending Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0309 94.89)",
+          "oklch(26% 0.0309 94.89)",
+          "oklch(37% 0.0309 94.89)",
+          "oklch(48% 0.0309 94.89)",
+          "oklch(59% 0.0309 94.89)",
+          "oklch(70% 0.0309 94.89)",
+          "oklch(82% 0.0309 94.89)",
+          "oklch(95% 0.0309 94.89)"
+        ]
+      },
+      "pending-ink": {
+        "role": "secondary",
+        "displayName": "Pending Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0856 88.28)",
+          "oklch(26% 0.0856 88.28)",
+          "oklch(37% 0.0856 88.28)",
+          "oklch(48% 0.0856 88.28)",
+          "oklch(59% 0.0856 88.28)",
+          "oklch(70% 0.0856 88.28)",
+          "oklch(82% 0.0856 88.28)",
+          "oklch(95% 0.0856 88.28)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Process-step headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "General prose."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Demonstration labels and status."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Conversion and demonstration actions."
+      }
+    },
+    "shadows": [
+      {
+        "name": "demonstration",
+        "value": "0 22px 60px -26px #164a373d",
+        "purpose": "Ambient depth below the primary interactive demonstration."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background 160ms, transform 160ms",
+        "purpose": "Darken and rise 2px on hover; return to rest on active."
+      },
+      {
+        "name": "approval-reveal",
+        "value": "350ms ease-out",
+        "purpose": "Protected content fades from opacity .5 and translates from 4px to its resting position."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important; scroll-behavior: auto !important",
+        "purpose": "Applied globally when prefers-reduced-motion is reduce."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "1050px"
+      },
+      {
+        "name": "stack-and-menu",
+        "value": "800px"
+      },
+      {
+        "name": "compact-spacing",
+        "value": "760px"
+      },
+      {
+        "name": "narrow-layout",
+        "value": "520px"
+      },
+      {
+        "name": "narrow-gutter",
+        "value": "420px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main conversion or product action.",
+      "html": "<button class=\"ds-button\" type=\"button\">Solicitar una demo</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;padding:14px 24px;min-height:50px;border:0;border-radius:8px;background:var(--green,#155a43);color:var(--paper,#fff);font-family:var(--font-body,\"Manrope\",sans-serif);font-size:14px;line-height:1.5;font-weight:650;text-decoration:none;cursor:pointer;transition:background 160ms,transform 160ms}.ds-button:hover{background:var(--green-hover,#0d4432);transform:translateY(-2px)}.ds-button:active{transform:translateY(0)}.ds-button:focus-visible{outline:3px solid var(--green,#155a43);outline-offset:5px;}.ds-button:disabled{opacity:.65;cursor:default}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Compact button",
+      "kind": "button",
+      "refersTo": "button-compact",
+      "description": "The header action at desktop widths.",
+      "html": "<button class=\"ds-button ds-button-compact\" type=\"button\">Solicitar una demo</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;padding:14px 24px;min-height:50px;border:0;border-radius:8px;background:var(--green,#155a43);color:var(--paper,#fff);font-family:var(--font-body,\"Manrope\",sans-serif);font-size:14px;line-height:1.5;font-weight:650;text-decoration:none;cursor:pointer;transition:background 160ms,transform 160ms}.ds-button:hover{background:var(--green-hover,#0d4432);transform:translateY(-2px)}.ds-button:active{transform:translateY(0)}.ds-button:focus-visible{outline:3px solid var(--green,#155a43);outline-offset:5px;}.ds-button:disabled{opacity:.65;cursor:default}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-button-compact{min-height:44px;padding:11px 20px}"
+    },
+    {
+      "name": "Reset button",
+      "kind": "button",
+      "refersTo": "button-reset",
+      "description": "Returns the demonstration to its initial state.",
+      "html": "<button class=\"ds-reset\" type=\"button\">Reiniciar ejemplo</button>",
+      "css": ".ds-reset{width:100%;min-height:44px;border:1px solid var(--green,#155a43);color:var(--green,#155a43);background:var(--paper,#fff);border-radius:8px;font-family:var(--font-body,\"Manrope\",sans-serif);font-size:14px;font-weight:650;cursor:pointer}.ds-reset:hover{background:var(--wash,#f5f8f5)}.ds-reset:focus-visible{outline:3px solid var(--green,#155a43);outline-offset:5px;}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "An underlined secondary navigation action.",
+      "html": "<a class=\"ds-text-link\" href=\"#control\">Cómo funciona</a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;min-height:48px;color:var(--ink,#102f29);font-family:var(--font-body,\"Manrope\",sans-serif);font-size:14px;font-weight:650;text-underline-offset:5px}.ds-text-link:hover{color:var(--green,#155a43)}.ds-text-link:focus-visible{outline:3px solid var(--green,#155a43);outline-offset:5px;}"
+    },
+    {
+      "name": "Desktop navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Compact sentence-case links on pale mint.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegación principal\"><a href=\"#control\">Cómo funciona</a><a href=\"#deployment\">Integración</a><a href=\"#law\">Ley 21.719</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;align-items:center;gap:28px;min-height:96px;background:var(--mint-light,#dff3e9);color:var(--ink,#102f29);font-family:var(--font-body,\"Manrope\",sans-serif);}.ds-nav a{padding-block:12px;font-size:14px;font-weight:550;color:inherit;text-decoration:none}.ds-nav a:hover{text-decoration:underline;text-underline-offset:5px}.ds-nav a:focus-visible{outline:3px solid var(--green,#155a43);outline-offset:5px;}@media(max-width:1050px){.ds-nav{gap:18px}.ds-nav a{font-size:12px}}"
+    },
+    {
+      "name": "Pending status",
+      "kind": "chip",
+      "refersTo": "status-pending",
+      "description": "Explicitly communicates that approval has not been granted.",
+      "html": "<span class=\"ds-status\">Pendiente de tu aprobación</span>",
+      "css": ".ds-status{display:inline-block;max-width:140px;padding:6px 8px;border-radius:4px;background:var(--pending-bg,#f6f0d9);color:var(--pending-ink,#6c5513);font-family:var(--font-body,\"Manrope\",sans-serif);font-size:12px;line-height:1.5;font-weight:650;text-align:center}"
+    },
+    {
+      "name": "Approved status",
+      "kind": "chip",
+      "refersTo": "status-approved",
+      "description": "Words and color confirm authorization.",
+      "html": "<span class=\"ds-status-approved\">Envío autorizado</span>",
+      "css": ".ds-status-approved{display:inline-block;max-width:140px;padding:6px 8px;border-radius:4px;background:var(--safe-bg,#d9f3e6);color:var(--safe-ink,#12523c);font-family:var(--font-body,\"Manrope\",sans-serif);font-size:12px;line-height:1.5;font-weight:650;text-align:center}"
+    },
+    {
+      "name": "Protection demonstration",
+      "kind": "card",
+      "refersTo": "demonstration-card",
+      "description": "Original and protected data are shown as labeled, distinct regions.",
+      "html": "<article class=\"ds-demo\"><div class=\"ds-demo-heading\"><svg viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6l-8-3Z\"/><path d=\"m8 12 3 3 5-6\"/></svg><strong>Del texto original al envío seguro</strong></div><div class=\"ds-original\"><span class=\"ds-label\">Tu texto original</span><p>Resume el caso de <mark>Ana Prueba</mark>.</p></div><div class=\"ds-protected\"><span class=\"ds-label\">Texto protegido para la IA</span><p>Resume el caso de <mark>[KS_…_A]</mark>.</p><span class=\"ds-explanation\">El nombre se sustituye por un código.</span></div></article>",
+      "css": ".ds-demo{background:var(--paper,#fff);color:var(--ink,#102f29);border-radius:var(--radius,16px);box-shadow:var(--shadow,0 22px 60px -26px #164a373d);overflow:clip;font-family:var(--font-body,\"Manrope\",sans-serif);}.ds-demo-heading{display:flex;align-items:center;gap:12px;padding:20px 24px;border-bottom:1px solid var(--rule,#d4dfd8);font-size:14px}.ds-demo-heading svg{width:25px;height:25px;color:var(--green,#155a43);stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.ds-original,.ds-protected{padding:22px 24px}.ds-original{background:var(--wash,#f5f8f5);border-bottom:1px solid var(--rule,#d4dfd8)}.ds-label{display:block;font-size:12px;font-weight:650;margin-bottom:14px}.ds-demo p{margin:0;font-size:18px;line-height:1.8}.ds-demo mark{padding:2px 4px;border-radius:3px;white-space:nowrap;background:var(--red-bg,#fbece5);color:var(--red,#8a3a2a)}.ds-protected p{font-size:23px;font-weight:550;letter-spacing:-.02em}.ds-protected mark{padding:2px 5px;background:var(--safe-bg,#d9f3e6);color:var(--safe-ink,#12523c)}.ds-explanation{display:block;font-size:12px;color:var(--muted,#4c625b);margin-top:12px}@media(max-width:520px){.ds-demo-heading{padding:18px;font-size:12px}.ds-original,.ds-protected{padding:20px 18px}.ds-original p{font-size:16px}.ds-protected p{font-size:20px}}"
+    },
+    {
+      "name": "Technical disclosure",
+      "kind": "custom",
+      "refersTo": "disclosure",
+      "description": "Native disclosure keeps qualifications available without crowding explanatory copy.",
+      "html": "<details class=\"ds-detail\"><summary>Cómo se aplica la autorización</summary><p>Quien aprueba autoriza esa revisión exacta. La aprobación caduca; KeepScope vuelve a comprobarla antes de enviar por la ruta permitida.</p></details>",
+      "css": ".ds-detail{border-top:1px solid var(--rule,#d4dfd8);color:var(--ink,#102f29);font-family:var(--font-body,\"Manrope\",sans-serif);}.ds-detail summary{cursor:pointer;font-size:14px;font-weight:600;padding-block:18px}.ds-detail summary:hover{color:var(--green,#155a43)}.ds-detail summary:focus-visible{outline:3px solid var(--green,#155a43);outline-offset:5px;}.ds-detail p{margin:0;padding-bottom:22px;max-width:75ch;font-size:14px;line-height:1.65;color:var(--muted,#4c625b)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Visible protection",
+    "overview": "An approachable enterprise security system: pale mint, deep pine ink, generous spacing, and compact white demonstrations make sensitive-data handling legible. The user-selected category direction favors familiar navigation, plain Spanish, and concrete product states.\n\nSelf-hosted Manrope carries every role. Rounded demonstration surfaces, fine separators, and restrained motion provide clarity without ornamental imagery. The existing favicon remains the identity asset; the build adds no raster imagery.",
+    "keyCharacteristics": [
+      "Mint and pine with explicit semantic state colors.",
+      "One type family, strong heading hierarchy, compact labels.",
+      "Spacious sections around useful, operable demonstrations."
+    ],
+    "rules": [
+      {
+        "name": "The Readable States Rule",
+        "body": "Pair state color with words: pending, approved, and protected data remain understandable without color.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Use self-hosted Manrope for headings, prose, navigation, and product examples.",
+        "section": "typography"
+      },
+      {
+        "name": "The Demonstration Depth Rule",
+        "body": "Reserve the ambient shadow for the primary interactive demonstration; use surface tones and separators elsewhere.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the mint brand accent, existing favicon, and Spanish interface.",
+      "Do use white product surfaces, sentence-case labels, and visible text for every state.",
+      "Do let columns stack and text wrap; retain the demonstration content on narrow screens.",
+      "Do honor reduced motion and retain visible keyboard focus."
+    ],
+    "donts": [
+      "Don't use status color as the only explanation of a result.",
+      "Don't promote illustrative examples into customer evidence or performance claims.",
+      "Don't replace the approved category direction with sparse abstract layouts."
+    ]
+  }
+}

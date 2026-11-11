@@ -1,83 +1,48 @@
-const header = document.querySelector("[data-header]");
-const menuButton = document.querySelector("[data-menu-button]");
-const mobileMenu = document.querySelector("[data-mobile-menu]");
-
-const syncHeader = () => {
-  header?.classList.toggle("is-scrolled", window.scrollY > 12);
-};
-
+const menuButton = document.querySelector('[data-menu-button]');
+const mobileMenu = document.querySelector('[data-mobile-menu]');
 const closeMenu = () => {
-  if (!menuButton || !mobileMenu) return;
-  menuButton.setAttribute("aria-expanded", "false");
+  menuButton.setAttribute('aria-expanded', 'false');
+  menuButton.setAttribute('aria-label', 'Abrir menú');
   mobileMenu.hidden = true;
-  document.body.classList.remove("menu-open");
 };
-
-syncHeader();
-window.addEventListener("scroll", syncHeader, { passive: true });
-
-menuButton?.addEventListener("click", () => {
-  const isOpen = menuButton.getAttribute("aria-expanded") === "true";
-  menuButton.setAttribute("aria-expanded", String(!isOpen));
-  mobileMenu.hidden = isOpen;
-  document.body.classList.toggle("menu-open", !isOpen);
+menuButton.addEventListener('click', () => {
+  const open = menuButton.getAttribute('aria-expanded') !== 'true';
+  menuButton.setAttribute('aria-expanded', String(open));
+  menuButton.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+  mobileMenu.hidden = !open;
+});
+mobileMenu.addEventListener('click', event => { if (event.target.closest('a')) closeMenu(); });
+window.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && !mobileMenu.hidden) { closeMenu(); menuButton.focus(); }
 });
 
-mobileMenu?.addEventListener("click", (event) => {
-  if (event.target.matches("a")) closeMenu();
-});
-
-window.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && mobileMenu && !mobileMenu.hidden) closeMenu();
-});
-
-const animatedSections = document.querySelectorAll("[data-observe]");
-
-if ("IntersectionObserver" in window) {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("in-view");
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    { threshold: 0.35 },
-  );
-
-  animatedSections.forEach((section) => observer.observe(section));
-} else {
-  animatedSections.forEach((section) => section.classList.add("in-view"));
-}
-
-const revealDemo = document.querySelector("[data-reveal-demo]");
-const revealButton = document.querySelector("[data-reveal-button]");
-const revealLabel = document.querySelector("[data-reveal-label]");
-const revealFeedback = document.querySelector("[data-reveal-feedback]");
-const protectedStatus = document.querySelector("[data-protected-status]");
-const personToken = document.querySelector("[data-person]");
-const rutToken = document.querySelector("[data-rut]");
-
-const setRevealState = (isRevealed) => {
-  revealDemo?.classList.toggle("is-revealed", isRevealed);
-
-  if (personToken) personToken.textContent = isRevealed ? "Ana Prueba" : "[KS_…_A]";
-  if (rutToken) rutToken.textContent = isRevealed ? "12.345.678-9" : "[KS_…_B]";
-  if (revealLabel) revealLabel.textContent = isRevealed ? "Volver al texto protegido" : "Ver datos del ejemplo";
-  if (protectedStatus) {
-    protectedStatus.lastChild.textContent = isRevealed ? " Resultado restituido" : " Resultado protegido";
-  }
-  if (revealFeedback) {
-    revealFeedback.textContent = isRevealed
-      ? "Ahora ves el nombre y el RUT del ejemplo. La restitución real exige permisos vigentes y queda registrada."
-      : "Prueba con datos ficticios: vuelve a ver el nombre y el RUT. Los tokens están abreviados.";
-  }
-  revealButton?.setAttribute("aria-pressed", String(isRevealed));
+const approvalDemo = document.querySelector('[data-approval-demo]');
+const approveButton = document.querySelector('[data-approve-button]');
+const resetButton = document.querySelector('[data-reset-button]');
+const setApproval = approved => {
+  approvalDemo.classList.toggle('is-approved', approved);
+  document.querySelector('[data-approval-status]').textContent = approved ? 'Envío autorizado' : 'Pendiente de tu aprobación';
+  document.querySelector('[data-approval-feedback]').textContent = approved
+    ? 'Aprobación simulada. No se ha realizado ningún envío.'
+    : 'El envío requiere revisar el texto y su destino.';
+  approveButton.hidden = approved;
+  resetButton.hidden = !approved;
+  (approved ? resetButton : approveButton).focus({ preventScroll: true });
 };
+approveButton.addEventListener('click', () => setApproval(true));
+resetButton.addEventListener('click', () => setApproval(false));
 
-revealButton?.addEventListener("click", () => {
-  setRevealState(!revealDemo.classList.contains("is-revealed"));
+const revealButton = document.querySelector('[data-reveal-button]');
+const revealDemo = document.querySelector('[data-reveal-demo]');
+revealButton.addEventListener('click', () => {
+  const revealed = revealButton.getAttribute('aria-pressed') !== 'true';
+  revealDemo.classList.toggle('is-revealed', revealed);
+  revealButton.setAttribute('aria-pressed', String(revealed));
+  document.querySelector('[data-person]').textContent = revealed ? 'Ana Prueba' : '[KS_…_A]';
+  document.querySelector('[data-rut]').textContent = revealed ? '12.345.678-9' : '[KS_…_B]';
+  document.querySelector('[data-reveal-label]').textContent = revealed ? 'Volver al texto protegido' : 'Ver datos del ejemplo';
+  document.querySelector('[data-protected-status]').textContent = revealed ? 'Datos restituidos' : 'Datos protegidos';
+  document.querySelector('[data-reveal-feedback]').textContent = revealed
+    ? 'En este ejemplo vuelven el nombre y el RUT. La restitución real exige permisos vigentes y queda registrada.'
+    : 'Simulación local. No utiliza datos reales.';
 });
-
-setRevealState(false);
